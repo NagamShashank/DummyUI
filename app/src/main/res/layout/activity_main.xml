@@ -26,6 +26,26 @@
             android:text="Fragment 1"
             android:layout_marginVertical="10dp"/>
 
+        <Button
+            android:id="@+id/btnFragment_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple"
+            android:fontFamily="@font/acme"
+            android:textSize="16sp"
+            android:text="Fragment 2"
+            android:layout_marginVertical="10dp"/>
+
+        <Button
+            android:id="@+id/btnFragment_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple"
+            android:fontFamily="@font/acme"
+            android:textSize="16sp"
+            android:text="Fragment 3"
+            android:layout_marginVertical="10dp"/>
+
 
     </LinearLayout>
 

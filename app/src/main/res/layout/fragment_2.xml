@@ -127,7 +127,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/acme"
+
                         android:text="105"
                         android:layout_gravity="center"
                         android:textColor="@color/white"
@@ -153,7 +153,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/acme"
+
                         android:text="18225"
                         android:layout_gravity="center"
                         android:textColor="@color/white"
@@ -179,7 +179,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/acme"
+
                         android:text="47.7%"
                         android:layout_gravity="center"
                         android:textColor="@color/white"
@@ -250,7 +250,7 @@
 
                     <TextView
                         android:text="75"
-                        android:fontFamily="@font/acme"
+
                         android:textSize="32sp"
                         android:layout_marginHorizontal="5dp"
                         android:textColor="@color/white"
@@ -432,7 +432,6 @@
 
                     <TextView
                         android:text="10000"
-                        android:fontFamily="@font/acme"
                         android:textSize="32sp"
                         android:layout_marginHorizontal="5dp"
                         android:textColor="@color/white"

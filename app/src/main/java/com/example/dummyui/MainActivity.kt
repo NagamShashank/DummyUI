@@ -20,6 +20,24 @@ class MainActivity : AppCompatActivity() {
     private fun moveToFragments(){
 
         binding.btnFragment1.setOnClickListener {
+            val fragment = Fragment_1()
+            val fragmentManager = supportFragmentManager
+            val transaction = fragmentManager.beginTransaction()
+            transaction.replace(R.id.frameLayout, fragment)
+            transaction.addToBackStack(null)
+            transaction.commit()
+        }
+
+        binding.btnFragment2.setOnClickListener {
+            val fragment = Fragment_2()
+            val fragmentManager = supportFragmentManager
+            val transaction = fragmentManager.beginTransaction()
+            transaction.replace(R.id.frameLayout, fragment)
+            transaction.addToBackStack(null)
+            transaction.commit()
+        }
+
+        binding.btnFragment3.setOnClickListener {
             val fragment = Fragment_3()
             val fragmentManager = supportFragmentManager
             val transaction = fragmentManager.beginTransaction()
