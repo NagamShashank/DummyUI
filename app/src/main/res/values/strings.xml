@@ -2,4 +2,9 @@
     <string name="app_name">Dummy UI</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="rank_2">Rank 2</string>
+    <string name="rank">Rank</string>
+    <string name="km">Km</string>
+    <string name="number">12536</string>
 </resources>
