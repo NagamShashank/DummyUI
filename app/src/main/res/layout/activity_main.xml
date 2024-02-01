@@ -7,44 +7,64 @@
     tools:context=".MainActivity"
     android:background="@drawable/gradient_bg">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/explicitBtn"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:text="@string/go_explicit"
+        android:textColor="@color/white"
+        android:fontFamily="@font/acme"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/lined_border"
+        app:layout_constraintBottom_toTopOf="@id/uiFragments"/>
+
+    <LinearLayout
+        android:id="@+id/uiFragments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <Button
             android:id="@+id/btnFragment_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/purple"
+            android:backgroundTint="@color/dark_violet2"
             android:fontFamily="@font/acme"
-            android:textSize="16sp"
-            android:text="Fragment 1"
-            android:layout_marginVertical="10dp"/>
+            android:textSize="14sp"
+            android:text="@string/fragment_1"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="5dp"/>
 
         <Button
             android:id="@+id/btnFragment_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/purple"
+            android:backgroundTint="@color/dark_violet2"
             android:fontFamily="@font/acme"
-            android:textSize="16sp"
-            android:text="Fragment 2"
-            android:layout_marginVertical="10dp"/>
+            android:textSize="14sp"
+            android:text="@string/fragment_2"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="5dp"/>
 
         <Button
             android:id="@+id/btnFragment_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/purple"
+            android:backgroundTint="@color/dark_violet2"
             android:fontFamily="@font/acme"
-            android:textSize="16sp"
-            android:text="Fragment 3"
-            android:layout_marginVertical="10dp"/>
+            android:textSize="14sp"
+            android:text="@string/fragment_3"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="5dp"/>
 
 
     </LinearLayout>

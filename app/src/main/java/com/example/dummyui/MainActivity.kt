@@ -1,5 +1,6 @@
 package com.example.dummyui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -14,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         moveToFragments()
-
+        moveExplicit()
     }
 
     private fun moveToFragments(){
@@ -46,5 +47,11 @@ class MainActivity : AppCompatActivity() {
             transaction.commit()
         }
 
+    }
+
+    private fun moveExplicit(){
+        binding.explicitBtn.setOnClickListener {
+            startActivity(Intent(applicationContext,MainActivity2::class.java))
+        }
     }
 }
