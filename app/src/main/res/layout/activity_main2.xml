@@ -8,7 +8,6 @@
     tools:context=".UITask_2.MainActivity2"
     android:background="@color/white">
 
-
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"

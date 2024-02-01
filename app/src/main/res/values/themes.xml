@@ -2,9 +2,24 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.DummyUI" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-         <item name="colorSecondary">@color/yellow</item>
+         <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/blue_dark</item>
+        <item name="colorAccent">@color/red</item>
         <item name="android:statusBarColor">@color/dark_violet</item>
+
+        <item name="colorSecondary">@color/yellow</item>
+
+
     </style>
 
-    <style name="Theme.DummyUI" parent="Base.Theme.DummyUI" />
+    <style name="AppNewTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/blue_dark</item>
+        <item name="colorAccent">@color/red</item>
+        <item name="android:statusBarColor">@color/dark_violet</item>
+
+        <item name="colorSecondary">@color/yellow</item>
+    </style>
+
+    <style name="Theme.DummyUI" parent="AppNewTheme" />
 </resources>
