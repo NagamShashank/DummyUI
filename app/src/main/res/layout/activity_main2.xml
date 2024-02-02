@@ -7,18 +7,33 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
-    <EditText
-        android:id="@+id/numberEdiText"
-        android:layout_width="match_parent"
+
+    <LinearLayout
+        android:id="@+id/contactLayout"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:digits="1234567890"
-        android:inputType="number"
-        android:maxLength="10"
-        android:layout_marginHorizontal="100dp"/>
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/contactName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="Shoeb Shaikh"/>
+
+        <TextView
+            android:id="@+id/contactNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="123456789" />
+
+    </LinearLayout>
+
 
 
 
@@ -33,7 +48,7 @@
             android:textColor="@color/green_medium"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/numberEdiText"/>
+            app:layout_constraintTop_toBottomOf="@id/contactLayout"/>
 
 
 
