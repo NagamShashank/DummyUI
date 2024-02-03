@@ -13,10 +13,10 @@
     </style>
 
     <style name="AppNewTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimary">@color/orange2</item>
         <item name="colorPrimaryDark">@color/blue_dark</item>
         <item name="colorAccent">@color/red</item>
-        <item name="android:statusBarColor">@color/dark_violet</item>
+        <item name="android:statusBarColor">@color/orange2</item>
 
         <item name="colorSecondary">@color/yellow</item>
     </style>

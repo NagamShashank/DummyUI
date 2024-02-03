@@ -26,8 +26,7 @@
 
     <color name="transparent">#00FFFFFF</color>
 
-
-
+    <color name="grey">#939393</color>
 
     <color name="purple_200">#0F9D58</color>
     <color name="teal_200">#3ffdfe</color>
@@ -44,5 +43,12 @@
 
 
     <color name="red2">#fc4141</color>
+
+
+    <color name="orange">#ff8a00</color>
+    <color name="orange2">#ff5001</color>
+
+
+    <color name="white4">#f5f6f7</color>
 
 </resources>
