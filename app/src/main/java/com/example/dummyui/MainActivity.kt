@@ -51,14 +51,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun moveExplicit(){
 
-        val bundle = Bundle()
-        bundle.putString("Name","Shoeb Shaikh")
-        bundle.putString("Contact","8087703241")
-
-        binding.explicitBtn.setOnClickListener {
-            val intent = Intent(applicationContext,MainActivity3::class.java)
-            intent.putExtras(bundle)
-            startActivity(intent)
-        }
+//        val bundle = Bundle()
+//        bundle.putString("Name","Shoeb Shaikh")
+//        bundle.putString("Contact","8087703241")
+//
+//        binding.explicitBtn.setOnClickListener {
+//            val intent = Intent(applicationContext,MainActivity3::class.java)
+//            intent.putExtras(bundle)
+//            startActivity(intent)
+//        }
     }
 }
