@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
         bundle.putString("Contact","8087703241")
 
         binding.explicitBtn.setOnClickListener {
-            val intent = Intent(applicationContext,MainActivity2::class.java)
+            val intent = Intent(applicationContext,MainActivity3::class.java)
             intent.putExtras(bundle)
             startActivity(intent)
         }

@@ -11,7 +11,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.dummyui.databinding.ActivityMain2Binding
 
-class MainActivity2 : AppCompatActivity() {
+class MainActivity3 : AppCompatActivity() {
 
     private lateinit var binding : ActivityMain2Binding
     private val CALL_PHONE_REQUEST_CODE = 101
